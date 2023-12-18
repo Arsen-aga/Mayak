@@ -27,9 +27,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        accent: '#007bfb',
-        default: '#2a2a30',
-        gray: '#f4f6fb',
+        accent: '#aa7e41',
+        default: '#fff',
+        brown: '#2d2324',
       },
       backgroundImage: {
         'section-1': "url('/app/img/bg.jpg')",

@@ -25,12 +25,12 @@
           <ul class="menu container flex justify-center gap-14 text-lg font-roboto-500 text-accent" id="menu">
             <li>
               <a href="#about-project"
-                class="mx-auto p-3 px-5 rounded-3xl transition-all duration-1000 hover:text-white hover:bg-accent">О
+                class="mx-auto  p-3 px-5 rounded-3xl transition-all duration-1000 hover:text-white hover:bg-accent">О
                 проекте</a>
             </li>
             <li>
               <a href="#about-us"
-                class="mx-auto p-3 px-5 rounded-3xl transition-all duration-1000 hover:text-white hover:bg-accent">О
+                class="mx-auto  p-3 px-5 rounded-3xl transition-all duration-1000 hover:text-white hover:bg-accent">О
                 застройщике</a>
             </li>
           </ul>
@@ -41,8 +41,9 @@
   </header>
 
   <main class="mt-[60px]">
-    <section class="pb-52 xl:pb-80 pt-48 bg-section-1 bg-no-repeat bg-cover bg-[50%_85%] rounded-[0_0_30px_30px]">
-      <div class="sm:max-w-[80%] lg:max-w-[50%] bg-gray bg-opacity-80 rounded-[0_25px_25px_0] py-8 px-4">
+    <section class="pb-96 pt-48 bg-section-1 bg-no-repeat bg-cover bg-[50%_85%] rounded-[0_0_30px_30px] relative">
+      <div class="absolute bg-brown bg-opacity-75 top-0 bottom-0 right-0 left-0 rounded-[0_0_30px_30px]"></div>
+      <div class="sm:max-w-[80%] lg:max-w-[50%] bg-default rounded-[0_25px_25px_0] py-8 px-8 absolute">
         <div class="ml-auto sm:max-w-[85%] 5xl:max-w-[75%]">
           <h1 class="text-accent font-roboto-700 text-2xl sm:text-3xl sm:mb-2 xl:text-5xl 4xl:text-5xl">Жилой комплекс
             Маяк</h1>
@@ -73,16 +74,16 @@
               предусмотрено озеленение территории с посадкой кустарников, деревьев и посевом газонных трав.
             </p>
           </div>
-          <div class="h-52 md:h-[350px] xl:h-full overflow-hidden rounded-3xl border-4 border-accent" id="map">
+          <div class="h-52 md:h-[350px] xl:h-full overflow-hidden rounded-3xl border-4 border-brown" id="map">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="mt-8 py-8 xl:py-20 bg-gray rounded-[30px_30px_0_0]" id="about-us">
+    <section class="mt-8 py-8 xl:py-20 bg-brown rounded-[30px_30px_0_0]" id="about-us">
       <div class="container">
-        <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 items-center">
-          <img class="order-1 lg:order-[0] rounded-3xl" src="img/mayak.png" alt="logo mayak">
+        <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 items-center text-default">
+          <img class="order-1 lg:order-[0] rounded-3xl border-4 border-accent" src="img/mayak.png" alt="logo mayak">
           <div class="xl:col-span-2">
             <h2 class="text-3xl mb-4 xl:mb-8 text-accent font-roboto-500">
               О застройщике
@@ -100,7 +101,7 @@
     </section>
   </main>
 
-  <footer class="bg-gray">
+  <footer class="bg-brown">
     <div class="rounded-[30px_30px_0_0] bg-white">
       <div class="container pt-12 pb-5">
         <h2 class="text-accent text-3xl mb-4 sm:mb-6 md:text-4xl xl:text-5xl 4xl:text-5xl">ЖК Маяк</h2>

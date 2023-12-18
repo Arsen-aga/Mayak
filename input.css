@@ -87,7 +87,7 @@ body {
   width: 50px;
   height: 4px;
   margin: 6px auto;
-  background-color: #007bfb;
+  background-color: #2d2324;
   border-radius: 2px;
   transition: 0.5s;
 }
@@ -206,7 +206,7 @@ body.noscroll {
   }
 
   .popup .menu>li>a:hover {
-    background-color: #007bfb;
+    background-color: #aa7e41;
     color: #fff;
   }
 
@@ -243,8 +243,8 @@ body.noscroll {
   position: absolute;
   right: -90px;
   font-weight: 700;
-  color: #fff;
+  color: #aa7e41;
   padding: 10px;
-  background-color: #007bfb;
+  background-color: #2d2324;
   border-radius: 10px;
 }
